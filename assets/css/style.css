@@ -195,6 +195,9 @@ header {
 .step-text {
   flex: 12;
 }
+.step h3 {
+  flex: 1 30%;
+}
 .trainer {
   width: 900px;
   margin: 0 auto 30px auto;
