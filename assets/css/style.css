@@ -29,7 +29,7 @@ body {
     text-decoration: none;
     color: #fce138;
   }
-    header nav {
+  header nav {
     margin: 7px 0;
   }
 
@@ -46,6 +46,10 @@ body {
     font-weight: lighter;
     font-size: 1.55vw;
   }
+
+  /* HEADER NAVBAR STYLES END  */
+
+  /* FOOTER STYLE START */
   footer {
     display: flex;
     justify-content: space-between;
@@ -61,10 +65,16 @@ body {
   }
   footer div {
     line-height: 1.5;
+    text-align: right;
   }
   footer a {
     color: #024e76;
   }
+  /* FOOTER STYLE END */
+ section{
+   padding: 60px;
+ }
+
   /* Hero Style Start */
   .hero {
     display: flex;
@@ -209,6 +219,7 @@ body {
 color: #fce138;
 margin: 20px;
 flex: 1;
+background: #024e76;
 }
 .trainer img {
   width: 100%;
@@ -229,14 +240,7 @@ flex: 1;
 .trainer-bio p {
   font-size: 17px;
 }
-.section-title {
-  font-size: 55px;
-  display: inline-block;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  margin-bottom: 35px;
-  color: #024e76;
-}
+
 /* REACH OUT STYLES START */
 .contact {
   background: #024e76;
@@ -257,11 +261,7 @@ flex: 1;
   height: 400px;
 }
 .contact-info div {
-  width: 410px;
-  display: inline-block;
-  vertical-align: top;
-  text-align: left;
-  margin: 30px 0 0 60px;
+ color: white];
 }
 .contact-info h3 {
   color: #fce138;
@@ -285,6 +285,7 @@ flex: 1;
   font-size: 16px;
   color: #024e76;
   width: 100%;
+  margin-bottom: 15px;
   margin-top: 5px;
 }
 .contact-form button{
@@ -296,4 +297,20 @@ flex: 1;
   padding: 15px 0;
   font-size: 16px;
 }
+.contact-info a {
+  color: #fce138;
+}
 /* REACH OUT STYLES END *
+
+/* UTILITIES */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.flex-row {
+  display: flex;
+}
