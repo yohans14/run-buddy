@@ -61,7 +61,6 @@ header {
   }
   footer div {
     line-height: 1.5;
-    /* text-align: right; */
   }
   footer a {
     color: #024e76;
@@ -198,7 +197,7 @@ header {
 .step h3 {
   flex: 1 30%;
 }
-.trainer {
+.trainers {
   width: 900px;
   margin: 0 auto 30px auto;
   background: #024e76;
